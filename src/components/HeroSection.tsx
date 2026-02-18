@@ -1,14 +1,13 @@
 import WhatsAppButton from "./WhatsAppButton";
-import drMoisesHero from "@/assets/dr-moises-hero.jpg";
 
 const HeroSection = () => (
   <section id="inicio" className="relative pt-14 md:pt-16">
-    <div className="bg-gradient-to-br from-secondary to-accent">
+    <div className="bg-gradient-to-br from-secondary/15 to-accent">
       <div className="container py-10 md:py-20">
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
           {/* Text */}
           <div className="flex-1 text-center md:text-left order-2 md:order-1">
-            <div className="inline-block mb-4 px-3 py-1 rounded-full bg-primary/10 text-accent-foreground text-xs font-body font-semibold tracking-wide uppercase">
+            <div className="inline-block mb-4 px-3 py-1 rounded-full bg-secondary/15 text-secondary text-xs font-body font-semibold tracking-wide uppercase">
               Pediatria e Homeopatia
             </div>
             <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-4">
@@ -28,14 +27,15 @@ const HeroSection = () => (
             </div>
           </div>
 
-          {/* Photo */}
-          <div className="flex-shrink-0 order-1 md:order-2">
-            <div className="w-56 h-56 md:w-72 md:h-72 rounded-2xl overflow-hidden shadow-xl border-4 border-background">
-              <img
-                src={drMoisesHero}
-                alt="Dr. Moises Chencinski - Pediatra e Homeopata"
-                className="w-full h-full object-cover"
-                loading="eager"
+          {/* Video */}
+          <div className="flex-shrink-0 order-1 md:order-2 w-full md:w-auto">
+            <div className="w-full md:w-80 lg:w-96 aspect-video rounded-2xl overflow-hidden shadow-xl border-4 border-background">
+              <iframe
+                src="https://www.youtube.com/embed/7omypCaZv7g?autoplay=1&mute=1&controls=1&rel=0"
+                title="Dr. Moises Chencinski - Pediatria e Homeopatia"
+                className="w-full h-full"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
               />
             </div>
           </div>

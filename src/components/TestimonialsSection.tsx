@@ -3,16 +3,16 @@ import WhatsAppButton from "./WhatsAppButton";
 
 const testimonials = [
   {
-    text: "Atendimento cuidadoso, com explicações claras e muita atenção aos detalhes.",
-    author: "Família A.",
+    text: "Já fazem 16 anos que meu filho fez um tratamento homeopático com o Doutor Moisés por conta da sinusite e rinite, nunca mais ele teve problema, médico excelente, sábio e experiente naquilo que faz. Adorei o atendimento e conduta. Podem levar seus filhos sem medo que será tratado com um profissional muito capacitado naquilo que se propôs a se dedicar.",
+    author: "Renata Vasconcelos",
   },
   {
-    text: "Consulta detalhada, com escuta verdadeira e abordagem diferenciada.",
-    author: "Família B.",
+    text: "Eu serei eternamente grata ao Dr Moisés. Depois de passar por pediatras e outros profissionais \"renomados\" de SP e não descobrirem o que minha bebê tinha e chorava ao mamar, ele em instantes percebeu a pouca movimentação na língua. Médico experiente, objetivo, seguro e capacitado, sem rodeios e frufrus. Tudo que uma família/pais de primeira viagem precisam. Senti muita confiança e não troco mais!",
+    author: "Ariane Guimarães",
   },
   {
-    text: "Profissional extremamente atencioso e consultório acolhedor.",
-    author: "Família C.",
+    text: "Dr Moisés foi pediatra do meu irmão e hoje é do meu filho. Ele é muito atencioso, dedicado, prático e apaixonado pela sua profissão. Precisei mandar email pra ele algumas vezes e ele sempre me responde (mesmo durante o final de semana)... sinto que meu filho tem um pediatra de verdade.",
+    author: "Paula Zapparolli",
   },
 ];
 
