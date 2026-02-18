@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.jpg";
 
 const navItems = [
   { label: "Início", href: "#inicio" },
@@ -18,8 +19,8 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="container flex items-center justify-between h-14 md:h-16">
-        <a href="#inicio" className="font-display font-bold text-lg text-foreground">
-          Dr. Moises
+        <a href="#inicio" className="flex items-center">
+          <img src={logo} alt="Dr. Moises Chencinski - Pediatria e Homeopatia" className="h-10 md:h-12" />
         </a>
 
         {/* Desktop nav */}

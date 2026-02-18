@@ -6,7 +6,7 @@ const AboutSection = () => (
     <div className="container">
       <div className="flex flex-col md:flex-row items-center gap-10">
         <div className="flex-shrink-0">
-          <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden shadow-lg border-4 border-accent">
+          <div className="w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden shadow-lg border-4 border-secondary">
             <img
               src={drMoises}
               alt="Dr. Moises Chencinski"
