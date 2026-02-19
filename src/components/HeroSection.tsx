@@ -1,45 +1,35 @@
+import heroBg from "@/assets/hero-bg.webp";
 import WhatsAppButton from "./WhatsAppButton";
 
 const HeroSection = () => (
-  <section id="inicio" className="relative pt-14 md:pt-16">
-    <div className="bg-gradient-to-br from-secondary/15 to-accent">
-      <div className="container py-10 md:py-20">
-        <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
-          {/* Text */}
-          <div className="flex-1 text-center md:text-left order-2 md:order-1">
-            <div className="inline-block mb-4 px-3 py-1 rounded-full bg-secondary/15 text-secondary text-xs font-body font-semibold tracking-wide uppercase">
-              Pediatria e Homeopatia
-            </div>
-            <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-4">
-              Cuidado Médico Humanizado para Crianças e Adultos em São Paulo
-            </h1>
-            <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed mb-6 max-w-xl mx-auto md:mx-0">
-              Atendimento individualizado, com escuta atenta, avaliação profunda e condutas baseadas em evidências científicas, respeitando a história e as necessidades de cada paciente.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-3 items-center md:items-start">
-              <WhatsAppButton className="w-full sm:w-auto text-base">
-                <WhatsAppIcon />
-                Agendar Consulta
-              </WhatsAppButton>
-              <span className="text-xs font-body text-muted-foreground bg-warm px-3 py-2 rounded-full">
-                📍 Atendimento Particular em São Paulo
-              </span>
-            </div>
-          </div>
-
-          {/* Video */}
-          <div className="flex-shrink-0 order-1 md:order-2 w-full md:w-auto">
-            <div className="w-full md:w-80 lg:w-96 aspect-video rounded-2xl overflow-hidden shadow-xl border-4 border-background">
-              <iframe
-                src="https://www.youtube.com/embed/7omypCaZv7g?autoplay=1&mute=1&controls=1&rel=0"
-                title="Dr. Moises Chencinski - Pediatria e Homeopatia"
-                className="w-full h-full"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-            </div>
-          </div>
-        </div>
+  <section
+    id="inicio"
+    className="relative pt-14 md:pt-16 min-h-[80vh] md:min-h-[85vh] flex items-center"
+    style={{
+      backgroundImage: `url(${heroBg})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+    }}
+  >
+    <div className="absolute inset-0 bg-black/50" />
+    <div className="container relative z-10 py-16 md:py-24 text-center">
+      <div className="inline-block mb-4 px-3 py-1 rounded-full bg-white/15 text-white text-xs font-body font-semibold tracking-wide uppercase backdrop-blur-sm">
+        Pediatria e Homeopatia
+      </div>
+      <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-4 max-w-3xl mx-auto">
+        Cuidado Médico Humanizado para Crianças e Adultos em São Paulo
+      </h1>
+      <p className="font-body text-base md:text-lg text-white/90 leading-relaxed mb-8 max-w-xl mx-auto">
+        Atendimento individualizado, com escuta atenta, avaliação profunda e condutas baseadas em evidências científicas, respeitando a história e as necessidades de cada paciente.
+      </p>
+      <div className="flex flex-col sm:flex-row gap-3 items-center justify-center">
+        <WhatsAppButton className="w-full sm:w-auto text-base">
+          <WhatsAppIcon />
+          Agendar Consulta
+        </WhatsAppButton>
+        <span className="text-xs font-body text-white/80 bg-white/10 backdrop-blur-sm px-3 py-2 rounded-full">
+          📍 Atendimento Particular em São Paulo
+        </span>
       </div>
     </div>
   </section>
