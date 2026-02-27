@@ -14,13 +14,13 @@ const HeroSection = () => (
     <div className="absolute inset-0 bg-black/50" />
     <div className="container relative z-10 py-16 md:py-24 text-center">
       <div className="inline-block mb-4 px-3 py-1 rounded-full bg-white/15 text-white text-xs font-body font-semibold tracking-wide uppercase backdrop-blur-sm">
-        Pediatria e Homeopatia
+        Homeopatia para Crianças e Adultos
       </div>
       <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-4 max-w-3xl mx-auto">
-        Cuidado Médico Humanizado para Crianças e Adultos em São Paulo
+        Cuidado Médico Homeopático Humanizado em São Paulo
       </h1>
       <p className="font-body text-base md:text-lg text-white/90 leading-relaxed mb-8 max-w-xl mx-auto">
-        Atendimento individualizado, com escuta atenta, avaliação profunda e condutas baseadas em evidências científicas, respeitando a história e as necessidades de cada paciente.
+        Atendimento individualizado, com escuta atenta, avaliação profunda e prescrição homeopática baseada na individualidade de cada paciente, respeitando sua história, sintomas físicos e emocionais.
       </p>
       <div className="flex flex-col sm:flex-row gap-3 items-center justify-center">
         <WhatsAppButton className="w-full sm:w-auto text-base">
