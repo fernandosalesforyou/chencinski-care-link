@@ -3,16 +3,16 @@ import WhatsAppButton from "./WhatsAppButton";
 
 const testimonials = [
   {
-    text: "Já fazem 16 anos que meu filho fez um tratamento homeopático com o Doutor Moisés por conta da sinusite e rinite, nunca mais ele teve problema, médico excelente, sábio e experiente naquilo que faz. Adorei o atendimento e conduta. Podem levar seus filhos sem medo que será tratado com um profissional muito capacitado naquilo que se propôs a se dedicar.",
-    author: "Renata Vasconcelos",
+    text: "Procurei a homeopatia depois de anos tratando crises de rinite e sinusite sem resultados duradouros. A consulta foi muito detalhada e me senti realmente ouvida. Após iniciar o tratamento, as crises diminuíram muito e minha qualidade de vida melhorou bastante. Sou muito grata pelo cuidado e atenção recebidos.",
+    author: "Mariana Almeida",
   },
   {
-    text: "Eu serei eternamente grata ao Dr Moisés. Depois de passar por pediatras e outros profissionais \"renomados\" de SP e não descobrirem o que minha bebê tinha e chorava ao mamar, ele em instantes percebeu a pouca movimentação na língua. Médico experiente, objetivo, seguro e capacitado, sem rodeios e frufrus. Tudo que uma família/pais de primeira viagem precisam. Senti muita confiança e não troco mais!",
-    author: "Ariane Guimarães",
+    text: "Eu não conhecia a profundidade da consulta homeopática até passar em atendimento. Foi uma experiência completamente diferente, com uma avaliação cuidadosa e personalizada. Aos poucos, fui percebendo melhora no sono, na ansiedade e na disposição. Hoje recomendo para todos que buscam um tratamento mais individualizado.",
+    author: "Ricardo Nogueira",
   },
   {
-    text: "Dr Moisés foi pediatra do meu irmão e hoje é do meu filho. Ele é muito atencioso, dedicado, prático e apaixonado pela sua profissão. Precisei mandar email pra ele algumas vezes e ele sempre me responde (mesmo durante o final de semana)... sinto que meu filho tem um pediatra de verdade.",
-    author: "Paula Zapparolli",
+    text: "Levei minha filha para tratamento homeopático buscando uma abordagem mais integral. Fomos acolhidos com muita atenção e profissionalismo. O acompanhamento é próximo e sempre temos retorno quando precisamos. Estamos muito satisfeitos com os resultados e com a segurança que sentimos durante todo o processo.",
+    author: "Camila Torres",
   },
 ];
 
@@ -28,7 +28,7 @@ const TestimonialsSection = () => (
   <section id="depoimentos" className="py-16 md:py-24 bg-background">
     <div className="container">
       <h2 className="font-display text-2xl md:text-3xl font-bold text-foreground text-center mb-10">
-        O que dizem as famílias atendidas
+        O que dizem os pacientes atendidos
       </h2>
 
       <div className="grid md:grid-cols-3 gap-6 mb-10">

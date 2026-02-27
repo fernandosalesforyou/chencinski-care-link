@@ -1,22 +1,14 @@
-import { Baby, Leaf } from "lucide-react";
+import { Leaf } from "lucide-react";
 import WhatsAppButton from "./WhatsAppButton";
-
-const pediatriaItems = [
-  "Acompanhamento desde o pré-natal",
-  "Orientação sobre amamentação",
-  "Sono infantil",
-  "Alimentação e introdução alimentar",
-  "Alergias e imunidade",
-  "Crescimento e desenvolvimento",
-  "Atendimento exclusivamente particular",
-];
 
 const homeopatiaItems = [
   "Atendimento individualizado",
-  "Consulta aprofundada",
-  "Avaliação integral do paciente",
-  "Abordagem complementar definida em consulta médica",
-  "Acompanhamento contínuo",
+  "Consulta homeopática aprofundada",
+  "Avaliação integral física e emocional",
+  "Prescrição baseada na individualidade do paciente",
+  "Tratamento de condições agudas e crônicas",
+  "Acompanhamento contínuo e personalizado",
+  "Atendimento exclusivamente particular",
 ];
 
 const SpecialtiesSection = () => (
@@ -26,29 +18,7 @@ const SpecialtiesSection = () => (
         Especialidades
       </h2>
 
-      <div className="grid md:grid-cols-2 gap-8">
-        {/* Pediatria */}
-        <div className="bg-background rounded-xl p-6 md:p-8 shadow-sm border border-border">
-          <div className="flex items-center gap-3 mb-5">
-            <div className="w-11 h-11 rounded-full bg-primary/10 flex items-center justify-center">
-              <Baby className="w-5 h-5 text-primary" />
-            </div>
-            <h3 className="font-display text-xl font-bold text-foreground">Pediatria Particular</h3>
-          </div>
-          <ul className="space-y-2.5 mb-6">
-            {pediatriaItems.map((item) => (
-              <li key={item} className="flex items-start gap-2 font-body text-sm text-muted-foreground">
-                <span className="text-primary mt-0.5">✓</span>
-                {item}
-              </li>
-            ))}
-          </ul>
-          <WhatsAppButton message="Olá, gostaria de agendar uma consulta de Pediatria.">
-            Agendar Pediatria
-          </WhatsAppButton>
-        </div>
-
-        {/* Homeopatia */}
+      <div className="max-w-xl mx-auto">
         <div className="bg-background rounded-xl p-6 md:p-8 shadow-sm border border-border">
           <div className="flex items-center gap-3 mb-5">
             <div className="w-11 h-11 rounded-full bg-primary/10 flex items-center justify-center">
