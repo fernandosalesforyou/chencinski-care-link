@@ -20,7 +20,7 @@ const HeroSection = () => (
         Cuidado Médico Homeopático Humanizado em São Paulo
       </h1>
       <p className="font-body text-base md:text-lg text-white/90 leading-relaxed mb-8 max-w-xl mx-auto">
-        Atendimento individualizado, com escuta atenta, avaliação profunda e prescrição homeopática baseada na individualidade de cada paciente, respeitando sua história, sintomas físicos e emocionais.
+        Consultas sem pressa, com avaliação integral do paciente e acompanhamento contínuo baseado em evidências científicas.
       </p>
       <div className="flex flex-col sm:flex-row gap-3 items-center justify-center">
         <WhatsAppButton className="w-full sm:w-auto text-base">
