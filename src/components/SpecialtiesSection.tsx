@@ -34,7 +34,7 @@ const SpecialtiesSection = () => (
               </li>
             ))}
           </ul>
-          <WhatsAppButton message="Olá, gostaria de agendar uma consulta de Homeopatia.">
+          <WhatsAppButton>
             Agendar Homeopatia
           </WhatsAppButton>
         </div>
